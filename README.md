@@ -67,6 +67,8 @@ Plain round-robin is fair on paper and wasteful in practice: it hands a hot lead
 
 ## 2. Architecture
 
+![Workflow Overview](workflow-overview.png)
+
 ```mermaid
 flowchart LR
     T1[HubSpot: Contact<br/>Created Webhook] --> CFG
